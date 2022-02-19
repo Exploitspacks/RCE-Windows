@@ -1,11 +1,12 @@
 # RCE-Windows
 New Modified RCE Windows
+https://satoshidisk.com/pay/CEif88
 -------------------------------------------------
 All scripts require python 3.8
 
 Starting the scanner:
 ===============
-
+https://satoshidisk.com/pay/CEif88
 python3 scanner.py [-in <in_file_path>] [-out <out_file_path>] [-threads <max_cnt>] [-proxy <host>:<port>] [-timeout <secs>] [-deep <num_deep_scan_iters>]
 
 All parameters are optional:
@@ -45,7 +46,7 @@ When checking, each valid, in addition to writing to a file, is accompanied by a
 
 Run exp:
 =============
-
+https://satoshidisk.com/pay/CEif88
 python3 exploit.py -ip <target_ip> [-port <taget_port>] [-file] [-proxy <host>:<port>] [-timeout <secs>] -payload <exe_or_dll_path> [-system]
 
 <target_ip> and <taget_port> (default standard 445) specify the target machine.
@@ -72,7 +73,7 @@ In this case, if the payload is not an executable (MZ-) file, it will be execute
 
 Executing an exp:
 =================
-
+https://satoshidisk.com/pay/CEif88
 The exp reports each step to the console and keeps in touch with the nuclear shellcode until the moment it transfers control to
 user mode. If the shellcode detected some kind of error (for example, it could not allocate memory, create a thread, etc.), then
 he will report this error to the exp and he will print it to the console. So if the exp has successfully completed, then you can be
@@ -80,7 +81,7 @@ we are at least sure that the usermode loader has received control and started t
 
 EXP Parameters:
 ================
-
+https://satoshidisk.com/pay/CEif88
 The lib\cfg.py file contains parameters that may need to be adjusted for a particular environment or machine, although
 they are already set to average optimal values:
 
@@ -105,7 +106,7 @@ they are already set to average optimal values:
 
 Запуск сканера:
 ===============
-
+https://satoshidisk.com/pay/CEif88
 python3 scanner.py [-in <in_file_path>] [-out <out_file_path>] [-threads <max_cnt>] [-proxy <host>:<port>] [-timeout <secs>] [-deep <num_deep_scan_iters>]
 
 Все параметры опциональны:
@@ -145,7 +146,7 @@ python3 scanner.py [-in <in_file_path>] [-out <out_file_path>] [-threads <max_cn
 
 Запуск экспа:
 =============
-
+https://satoshidisk.com/pay/CEif88
 python3 exploit.py -ip <target_ip> [-port <taget_port>] [-file] [-proxy <host>:<port>] [-timeout <secs>] -payload <exe_or_dll_path> [-system]
 
 <target_ip> и <taget_port> (по умолчанию стандартный 445) задают целевую машину.
@@ -172,7 +173,7 @@ python3 exploit.py -ip <target_ip> [-port <taget_port>] [-file] [-proxy <host>:<
 
 Выполнение экспа:
 =================
-
+https://satoshidisk.com/pay/CEif88
 Эксп репортит каждый свой щаг в консоль и держит связь с ядерным шеллкодом вплоть до момента передачи им управления в
 пользовательский режим. Если шеллкод задетектил какую-то ошибку (например, не смог выделить память, создать поток и т.д.), то
 он отрепортит эту ошибку экспу и тот выведет ее в консоль. Так что если эксп успешно доработал до конца, то вы можете быть
@@ -180,7 +181,7 @@ python3 exploit.py -ip <target_ip> [-port <taget_port>] [-file] [-proxy <host>:<
 
 Параметры экспа:
 ================
-
+https://satoshidisk.com/pay/CEif88
 В файле lib\cfg.py находятся параметры, которые может потребоваться поднастроить под конкретную среду или машину, хотя
 они уже установлены в средние оптимальные значения:
 
@@ -207,7 +208,7 @@ python3 exploit.py -ip <target_ip> [-port <taget_port>] [-file] [-proxy <host>:<
 
 Известные проблемы:
 ===================
-
+https://satoshidisk.com/pay/CEif88
 1. Наблюдались проблемы с пробивом экспа машины, на которой поднят BC. В этом случае используйте прямое подключение к машине.
 2. Возможен BSOD целевой машине, если выполнение экспа было прервано и он не сумел произвести нужную очистку. Потому старайтесь
    выполнение экспа не прерывать.
@@ -220,7 +221,7 @@ python3 exploit.py -ip <target_ip> [-port <taget_port>] [-file] [-proxy <host>:<
 
 Тестовые пейлоады:
 ------------------
-
+https://satoshidisk.com/pay/CEif88
 1. hello.exe - выведет message box и создаст процесс notepad.exe
 2. rdp64.dll - создаст локального админа с логопассом Support452:123$Qwerty (требует админиских прав, запускать с ключом -system 1)
 
